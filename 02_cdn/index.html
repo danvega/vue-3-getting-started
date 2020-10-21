@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hello, Vue 3!</title>
+    <script src="https://unpkg.com/vue@next"></script>
+  </head>
+  <body>
+    <div id="app">
+      <h1>Hello, Vue 3!</h1>
+      <p>{{ counter }}</p>
+      <button @click="startCountdown">Start Countdown</button>
+    </div>
+
+    <script>
+      const CountdownApp = {
+        data() {
+          return {
+            counter: 10,
+          };
+        },
+        methods: {
+          startCountdown() {
+            let timer = setInterval(() => {
+              this.counter--;
+              if (this.counter == 0) {
+                clearInterval(timer);
+              }
+            }, 1000);
+          },
+        },
+      };
+
+      Vue.createApp(CountdownApp).mount("#app");
+    </script>
+  </body>
+</html>

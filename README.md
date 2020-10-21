@@ -8,3 +8,11 @@
 - Vue UI
 - Vite
 
+
+What are you going to learn today?
+
+Pros / Cons of each
+
+Why are you giving me this many options Dan?
+
+This repository should have a starting point and the completed code.
