@@ -1,7 +1,14 @@
 # Using a CDN
 
-https://v3.vuejs.org/guide/introduction.html#declarative-rendering
+I want to talk about Vue being progressive here.
 
+For prototyping or learning purposes, you can use the latest version with:
+
+```
+<script src="https://unpkg.com/vue@next"></script>
+```
+
+> Note: For production, we recommend linking to a specific version number and build to avoid unexpected breakage from newer versions.
 
 Countdown Timer App
 
