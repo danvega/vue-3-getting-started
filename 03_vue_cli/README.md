@@ -1,8 +1,10 @@
 # Vue CLI
 
-Vue provides an official CLI for quickly scaffolding ambitious Single Page Applications.
+Vue provides an official CLI for quickly scaffolding ambitious Single Page Applications. If you're on the latest version of the CLI you will have an option to create a Vue 3 application.
 
-> Note: The CLI assumes prior knowledge of Node.js and the associated build tools. If you are new to Vue or front-end build tools, we strongly suggest going through the guide without any build tools before using the CLI.
+> Note: The CLI assumes prior knowledge of Node.js and the associated build tools. If you are new to Vue or front-end build tools, the Vue team strongly suggests going through the guide without any build tools before using the CLI.
+
+Install the Vue CLI by running the following from the command-line:
 
 ```bash
 yarn global add @vue/cli
